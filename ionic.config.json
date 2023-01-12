@@ -1,0 +1,7 @@
+{
+  "name": "UnlamWebapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
