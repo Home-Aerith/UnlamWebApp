@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="box">
+    <div class="form">
+      <img class="logo" src="../../assets/icon/unlam-logo.png" alt="Test" /> 
+      <h2>Universidad Nacional de La Matanza</h2>
+      <div class="inputBox">
+        <input type="text" [(ngModel)]="username" required="required"/>
+        <span>Usuario</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" [(ngModel)]="password" required="required" />
+        <span>Contraseña</span>
+        <i></i>
+        <h2>
+          ¿Olvidaste la contraseña?
+        </h2>
+      </div>
+      <div class="login">
+        <ion-button shape="round" (click)="login()">Login</ion-button>
+        <h2>
+          Registrarse
+        </h2>
+      </div>
+    </div>
+  </div>
+</ion-content>
